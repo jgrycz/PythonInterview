@@ -1,0 +1,8 @@
+include *.md
+include *.yml
+include *.ini
+include *.txt
+include *.cfg
+include setup.py
+recursive-include master_project  *.py
+recursive-include test *.py
