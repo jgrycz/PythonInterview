@@ -1,0 +1,16 @@
+Nov 14 21:17:05 raspberrypi kernel: [    0.000000] Memory: 936304K/966656K available (7168K kernel code, 486K rwdata, 2012K rodata, 1024K init, 770K bss, 22160K reserved, 8192K cma-reserved)
+Nov 14 21:17:05 raspberrypi kernel: [    0.000000] Virtual kernel memory layout:
+Nov 14 21:17:05 raspberrypi kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Nov 14 21:17:05 raspberrypi kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Nov 14 21:17:05 raspberrypi kernel: [    0.000000]     vmalloc : 0xbb800000 - 0xff800000   (1088 MB)
+Nov 14 21:17:05 raspberrypi kernel: [    0.000000]     lowmem  : 0x80000000 - 0xbb000000   ( 944 MB)
+Nov 14 21:17:05 raspberrypi kernel: [    0.000000]     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Nov 14 21:17:05 raspberrypi kernel: [    0.000000]       .text : 0x80008000 - 0x80800000   (8160 kB)
+Nov 14 21:17:05 raspberrypi kernel: [    0.000000]       .init : 0x80b00000 - 0x80c00000   (1024 kB)
+Nov 14 21:17:05 raspberrypi kernel: [    0.000000]       .data : 0x80c00000 - 0x80c79834   ( 487 kB)
+Nov 14 21:17:05 raspberrypi kernel: [    0.000000]        .bss : 0x80c7b000 - 0x80d3b964   ( 771 kB)
+Nov 14 21:17:05 raspberrypi kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Nov 14 21:17:05 raspberrypi kernel: [    0.000000] Hierarchical RCU implementation.
+Nov 14 21:17:05 raspberrypi kernel: [    0.000000]      Build-time adjustment of leaf fanout to 32.
+Nov 14 21:17:05 raspberrypi systemd[1]: Starting Remount Root and Kernel File Systems...
+Nov 14 21:17:05 raspberrypi kernel: [    0.000000] NR_IRQS:16 nr_irqs:16 16

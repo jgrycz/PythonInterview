@@ -1,0 +1,15 @@
+Nov 14 21:17:05 raspberrypi kernel: [    0.002728] Disabling memory control group subsystem
+Nov 14 21:17:05 raspberrypi kernel: [    0.002831] CPU: Testing write buffer coherency: ok
+Nov 14 21:17:05 raspberrypi kernel: [    0.002893] ftrace: allocating 22392 entries in 66 pages
+Nov 14 21:17:05 raspberrypi systemd[1]: Mounted Configuration File System.
+Nov 14 21:17:05 raspberrypi kernel: [    0.049989] CPU0: update cpu_capacity 1024
+Nov 14 21:17:05 raspberrypi kernel: [    0.050041] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Nov 14 21:17:05 raspberrypi kernel: [    0.050104] Setting up static identity map for 0x100000 - 0x100034
+Nov 14 21:17:05 raspberrypi kernel: [    0.051989] CPU1: update cpu_capacity 1024
+Nov 14 21:17:05 raspberrypi systemd[1]: Started Remount Root and Kernel File Systems.
+Nov 14 21:17:05 raspberrypi kernel: [    0.051996] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+Nov 14 21:17:05 raspberrypi kernel: [    0.052681] CPU2: update cpu_capacity 1024
+Nov 14 21:17:05 raspberrypi kernel: [    0.052688] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+Nov 14 21:17:05 raspberrypi systemd[1]: Started Apply Kernel Variables.
+Nov 14 21:17:05 raspberrypi kernel: [    0.053358] CPU3: update cpu_capacity 1024
+Nov 14 21:17:05 raspberrypi kernel: [    0.053365] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003

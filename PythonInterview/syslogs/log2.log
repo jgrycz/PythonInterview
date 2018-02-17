@@ -1,0 +1,11 @@
+Nov 14 11:17:01 raspberrypi CRON[2965]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 14 12:17:01 raspberrypi CRON[3015]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 14 13:17:01 raspberrypi CRON[3061]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 14 14:17:01 raspberrypi CRON[3112]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 14 15:17:01 raspberrypi CRON[3158]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 14 16:17:01 raspberrypi CRON[3200]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 14 17:17:01 raspberrypi CRON[3249]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 14 18:17:01 raspberrypi CRON[3297]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 14 18:44:45 raspberrypi systemd[1]: Starting Daily apt download activities...
+Nov 14 18:44:47 raspberrypi systemd[1]: Started Daily apt download activities.
+Nov 14 18:44:47 raspberrypi systemd[1]: apt-daily.timer: Adding 2h 52min 19.290842s random time.
