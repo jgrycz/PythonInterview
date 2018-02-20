@@ -17,8 +17,16 @@ class ProcParser:
 
     def load_data(self):
         # TODO mehtod loads data from file self.output_file_path
-        pass
+        with open(self.output_file_path) as f:
+            self.loaded_data = f.read()
 
     def get_user_procs(self, user):
-        # TODO returns all procs owned by user
-        pass
+        proccesses = self.loaded_data.split('\n')
+        self.data = [i for i in proccesses if user in i.split(' ')[0]]
+
+
+if __name__ == '__main__':
+    boo = ProcParser('proc_dump.txt')
+    boo.load_data()
+    boo.get_user_procs('root')
+    print("\n".join(boo.data))

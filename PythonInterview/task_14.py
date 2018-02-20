@@ -7,3 +7,4 @@ Katalog syslogs zawiera kilka plików z logami, napisz funkcje która sprawdzi z
 Funkcja ma działać niezależnie od platformy.
 
 """
+
