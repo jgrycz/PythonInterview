@@ -10,7 +10,22 @@ Napisz taki dekorator który w razie awarii zapewni dalsze działanie aplikacji.
 
 """
 from random import choice
+from typing import Callable
 
+
+def parse_exception(e: Exception):
+    return 'Exception'
+
+
+def cont(f: Callable):
+    def wrapper():
+        try:
+            return f()
+        except Exception as e:
+            handler = ExceptionHandler()
+            getattr(handler, f'handle_{parse_exception(e)}')()
+
+        return wrapper()
 
 def raise_exception():
     exceptions = [IOError, ImportError, EnvironmentError, Exception, BaseException]
