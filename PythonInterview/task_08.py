@@ -12,6 +12,21 @@ Napisz taki dekorator który w razie awarii zapewni dalsze działanie aplikacji.
 from random import choice
 
 
+class handler_decorator:
+    def __init__(self, foo, exceptions):
+        self.foo = foo
+        self.exceptions_and_handlers = [IOError, ImportError, EnvironmentError, Exception, BaseException]
+
+    def __call__(self, *args, **kwargs):
+        def wrapper():
+            try:
+                return self.foo(*args)
+            except Exception as e:
+                print(e)
+
+        return wrapper()
+
+
 def raise_exception():
     exceptions = [IOError, ImportError, EnvironmentError, Exception, BaseException]
     raise choice(exceptions)

@@ -15,16 +15,15 @@ Choinka powinna wyglądać jak poniżej:
 
 """
 
+
 def print_tree(n: int):
     out = ''
-    tree_width = n//2+1
     for i in range(n):
-        out += ' ' * (tree_width - i) + '*'* (1 + 2*i ) + '\n'
+        out += ' ' * (n - i) + '*' * (i*2+1) + '\n'
     else:
-        out += tree_width * ' ' + '|'
-
+        out += n * ' ' + '|'
     return out
 
 
 if __name__ == '__main__':
-    print(print_tree(5))
+    print(print_tree(16))

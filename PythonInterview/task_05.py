@@ -4,7 +4,7 @@
 :contact: jaroslaw.grycz@gmail.com
 
 Plik proc_dump.txt zawiera output z komendy ps -efw.
-Dopisz funkcje:
+Dopisz metodę:
  - Która przeczyta plik ze wszystkimi procesami
  - Zwróci liste procesów należących do zadanego uzytkowinika
 
@@ -28,5 +28,6 @@ class ProcParser:
 if __name__ == '__main__':
     boo = ProcParser('proc_dump.txt')
     boo.load_data()
+    print(type(boo.loaded_data))
     boo.get_user_procs('root')
     print("\n".join(boo.data))

@@ -9,4 +9,10 @@ Znajdz wszystkie procesy mające czterocyfrowy PID znajdujące się w pliku proc
 
 import re
 
-regex = '.* [0-9]4 [0-9]+ .*'
+
+if __name__ == '__main__':
+    with open('proc_dump.txt') as f:
+        data = f.read()
+    regex = re.compile('^[\w]+ *[0-9]{4} *[0-9]+ .*')
+    out = [i for i in data.split('\n') if regex.match(i)]
+    print("\n".join(out))
