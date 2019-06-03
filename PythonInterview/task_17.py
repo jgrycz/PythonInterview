@@ -7,7 +7,7 @@
 
 
 def get_matrix_as_spiral(matrix):
-    """This function takes a NxN matrix and prints it as a spiral."""
+    """This function takes a NxN matrix and returns it as a spiral."""
 
     num_of_rows = len(matrix)
     top = 0
