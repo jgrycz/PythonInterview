@@ -11,9 +11,13 @@ Znajdz powtarzające się elementy w zbiorach x oraz y.
 x = [1, 2, 3, 4, 5]
 y = [3, 4, 5, 5, 7]
 
+print({i for i in x if i in y})
+
 # 2
 x = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
 y = {'c': 3, 'd': 4, 'e': 5, 'f': 6, 'g': 7}
+
+print({k: v for k, v in x.items() if k in y and v == y[k]})
 
 # 3 set 1
 
