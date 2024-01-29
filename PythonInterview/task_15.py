@@ -1,10 +1,8 @@
-# -*- coding: utf-8 -*-
 """
 :author: Jaroslaw Grycz
 :contact: jaroslaw.grycz@gmail.com
 
-Korzystająć z metody filter znajdz wszystkie klasy nie będące podklasą klasy BaseClass.
-
+Znajdz wszystkie klasy nie będące podklasą klasy BaseClass.
 """
 from abc import ABCMeta
 

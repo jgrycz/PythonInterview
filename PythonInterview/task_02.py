@@ -1,10 +1,8 @@
-# -*- coding: utf-8 -*-
 """
 :author: Jaroslaw Grycz
 :contact: jaroslaw.grycz@gmail.com
 
 Znajdz powtarzające się elementy w zbiorach x oraz y.
-
 """
 
 # 1

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 :author: Jaroslaw Grycz
 :contact: jaroslaw.grycz@gmail.com
@@ -11,6 +10,8 @@ Choinka powinna wyglądać jak poniżej:
  ***
 *****
   |
-
-
 """
+
+
+def draw_christmas_tree(size):
+    pass

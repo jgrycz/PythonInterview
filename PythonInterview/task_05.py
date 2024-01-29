@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 :author: Jaroslaw Grycz
 :contact: jaroslaw.grycz@gmail.com
@@ -7,7 +6,6 @@ Plik proc_dump.txt zawiera output z komendy ps -efw.
 Dopisz funkcje:
  - Która przeczyta plik ze wszystkimi procesami
  - Zwróci liste procesów należących do zadanego uzytkowinika
-
 """
 
 
